@@ -319,7 +319,7 @@ button {
           justify-content: space-between;
 }
 
-.jc-ev {
+.jc-v {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -389,7 +389,12 @@ body {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 50px 0 75px;
+}
+
+.wrapper-i {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 50px 0 75px;
 }
 
 .container {
